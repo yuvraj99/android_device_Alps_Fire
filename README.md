@@ -1,6 +1,6 @@
 # android_device_Alps_Fire
 Nougat ROMs building tree for Alps Power Plus powered by Stain995
-- **AICP 12.1**
+- **LineageOS 14.1**
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -18,7 +18,7 @@ Camera  | 13mp Rear, 5mp front
 
 # Build Commands :-
 
-  * repo init -u https://github.com/Stain995/platform_manifest.git -b n7.1
+  * repo init -u https://github.com/TestMT6572/android.git -b cm14.1
   * repo sync -f --force-sync --no-clone-bundle
   * source build/envsetup.sh
   * lunch aicp_fire-userdebug
