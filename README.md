@@ -22,7 +22,7 @@ Camera  | 13mp Rear, 5mp front
   * repo sync -f --force-sync --no-clone-bundle
   * source build/envsetup.sh
   * lunch aicp_Fire-userdebug
-  * brunch fire
+  * brunch Fire
 
 #[ Note: all device and vendor tree is included in platform manifest so no need to clone it again and again! ]
 
