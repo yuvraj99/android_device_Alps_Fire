@@ -81,29 +81,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 -
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 # TWRP
-TARGET_NO_TWO_STEP_RECOVERY := true
-TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-BOARD_HAS_NO_SELECT_BUTTON := true
-TW_NO_REBOOT_BOOTLOADER := true
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
-TARGET_RECOVERY_DEVICE_DIRS += $(LOCAL_PATH)
-TW_THEME := portrait_hdpi
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
-TW_MAX_BRIGHTNESS := 255
-RECOVERY_SDCARD_ON_DATA := true
-TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_CRYPTO_FS_TYPE := "ext4"
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p3"
-TW_CRYPTO_MNT_POINT := "/data"
-TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
-TW_NO_USB_STORAGE := true
-TW_EXCLUDE_SUPERSU := true
-TW_INCLUDE_FB2PNG := true
-TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
-TW_EXTRA_LANGUAGES := true
-TW_BUILD_ZH_CN_SUPPORT := true
+TARGET_NO_RECOVERY := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
