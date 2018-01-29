@@ -18,11 +18,12 @@ Camera  | 13mp Rear, 5mp front
 
 # Build Commands :-
 
-  * repo init -u https://github.com/TestMT6572/android.git -b cm14.1
+  * repo init -u https://github.com/TestMT6572/android.git -b cm-14.1
   * repo sync -f --force-sync --no-clone-bundle
+  * git clone https://github.com/Stain995/android_device_Alps_Fire.git -b LineageOS device/Alps/Fire
+  * git clone https://github.com/Stain995/android_vendor_Alps_Fire.git device/Alps/Fire
   * source build/envsetup.sh
-  * lunch aicp_fire-userdebug
-  * brunch fire
+  * brunch Fire
 
 #[ Note: all device and vendor tree is included in platform manifest so no need to clone it again and again! ]
 
