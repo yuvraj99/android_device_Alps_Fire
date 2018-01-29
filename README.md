@@ -19,9 +19,8 @@ Camera  | 13mp Rear, 5mp front
 # Build Commands :-
 
   * repo init -u https://github.com/Stain995/platform_manifest.git -b n7.1
-  * repo sync -f --force-sync --no-clone-bundle
-  * source build/envsetup.sh
-  * lunch aicp_Fire-userdebug
+  * repo sync --no-tags --no-clone-bundle --force-sync -c -j8
+  * lunch aicp_Fire-userdebug
   * brunch Fire
 
 #[ Note: all device and vendor tree is included in platform manifest so no need to clone it again and again! ]
