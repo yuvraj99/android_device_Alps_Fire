@@ -81,7 +81,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 -
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 # TWRP
-TARGET_NO_RECOVERY := true
+TARGET_PREBUILT_RECOVERY := $(LOCAL_PATH)/recovery.img
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
