@@ -81,7 +81,6 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 -
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
 
 # TWRP
-TARGET_PREBUILT_RECOVERY := $(LOCAL_PATH)/recovery.img
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TW_NO_REBOOT_BOOTLOADER := true
