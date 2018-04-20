@@ -1,5 +1,5 @@
 # android_device_Alps_Fire
-Nougat ROMs building tree for Alps Power Plus powered by Stain995
+Nougat ROMs building tree for Alps Power Plus powered by Yuvraj Saxena
 - **LineageOS 14.1**
 
 Basic   | Spec Sheet
@@ -13,23 +13,11 @@ Storage | 16GB
 Display | 5.3" 720 x 1280 px
 Camera  | 13mp Rear, 5mp front
 
-
-
-
-# Build Commands :-
-
-  * repo init -u https://github.com/TestMT6572/android.git -b cm-14.1
-  * repo sync -f --force-sync --no-clone-bundle
-  * git clone https://github.com/Stain995/android_device_Alps_Fire.git -b LineageOS device/Alps/Fire
-  * git clone https://github.com/Stain995/android_vendor_Alps_Fire.git device/Alps/Fire
-  * source build/envsetup.sh
-  * brunch Fire
-
 #[ Note: all device and vendor tree is included in platform manifest so no need to clone it again and again! ]
 
 # Credits/Thanks to:-
 
  * tribetmen
- * Stain995
+ * yuvraj99
  * SamSanuch
  * a7raj

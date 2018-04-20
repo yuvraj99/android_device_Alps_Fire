@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := Fire
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/Alps/Fire/device_Fire.mk)
@@ -12,7 +12,7 @@ PRODUCT_LOCALES := en_US ru_RU en_AU en_IN fr_FR it_IT es_ES et_EE de_DE nl_NL c
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Fire
-PRODUCT_NAME := lineage_Fire
+PRODUCT_NAME := dot_Fire
 PRODUCT_BRAND := Alps
 PRODUCT_MODEL := Fire
 PRODUCT_MANUFACTURER := Intex
